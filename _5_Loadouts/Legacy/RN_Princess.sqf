@@ -1,0 +1,47 @@
+removeAllItems player;
+removeAllWeapons player;
+removeBackpack player;
+clearBackpackCargo player;
+clearAllItemsFromBackpack player;
+removeUniform player;
+removeVest player;
+removeHeadgear player;
+{player unassignItem _x;player removeItem _x} forEach assignedItems player;
+
+player forceAddUniform "UK3CB_BAF_U_HeliPilotCoveralls_RN";
+player addWeapon "UK3CB_BAF_L22A2";
+player addPrimaryWeaponItem "UK3CB_BAF_LLM_IR_Black";
+player addPrimaryWeaponItem "RKSL_optic_EOT552X";
+player addPrimaryWeaponItem "UK3CB_BAF_556_30Rnd";
+player addWeapon "UK3CB_BAF_L131A1";
+player addHandgunItem "UK3CB_BAF_Flashlight_L131A1";
+player addHandgunItem "UK3CB_BAF_9_17Rnd";
+
+player addVest "UK3CB_V_Pilot_Vest";
+player addBackpack "B_LegStrapBag_olive_F";
+
+comment "Add items to containers";
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
+player addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+player addItemToUniform "ItemcTabHCam";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_epinephrine";};
+player addItemToUniform "ACE_EarPlugs";
+player addItemToUniform "ACE_Flashlight_MX991";
+player addItemToVest "KNB_Notebook";
+for "_i" from 1 to 2 do {player addItemToVest "ACE_IR_Strobe_Item";};
+player addItemToVest "ACE_microDAGR";
+player addItemToVest "ACRE_PRC343";
+for "_i" from 1 to 2 do {player addItemToVest "UK3CB_BAF_9_17Rnd";};
+for "_i" from 1 to 2 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
+player addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
+player addItemToVest "SmokeShellBlue";
+player addItemToBackpack "G_CBRN_M50";
+player addItemToBackpack "539_beret_navy_officer";
+player addItemToBackpack "rhsusf_hgu56p_visor_pink";
+player addItemToBackpack "RAB_ANPVS_21";
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_Canteen";};
+player addHeadgear "H_Cap_headphones";

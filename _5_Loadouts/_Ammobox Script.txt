@@ -1,0 +1,29 @@
+#Ammobox Script
+this addAction ["Pilot - JHC", "Loadouts\jhc_Pilot.sqf"];
+this addAction ["Pilot - RAF", "Loadouts\raf_Pilot.sqf"];
+this addAction ["Aircrewman - JHC", "Loadouts\jhc_Aircrew.sqf"];
+this addAction ["Base - JHC", "Loadouts\jhc_Base.sqf"];
+this addAction ["Base - JHC (Rolled)", "Loadouts\jhc2_Base.sqf"];
+this addAction ["Base - RAF", "Loadouts\raf_Base.sqf"];
+this addAction ["Base - RAF (Rolled)", "Loadouts\raf2_Base.sqf"]; 
+
+this addAction ["Base - 2 Para", "Loadouts\p1_Base.sqf"]; 
+this addAction ["Base - 2 Para (Rolled)", "Loadouts\p2_Base.sqf"]; 
+this addAction ["Base - A Troop, HCR", "Loadouts\a1_Base.sqf"];
+this addAction ["Base - A Troop, HCR (Rolled)", "Loadouts\a2_Base.sqf"];
+
+this addAction ["2 Para - Rifleman (Basic)", "Loadouts\p_Basic.sqf"];
+this addAction ["2 Para - Rifleman (AT)", "Loadouts\p_AT.sqf"];
+this addAction ["2 Para - Rifleman (Gunner)", "Loadouts\p_MG.sqf"];
+this addAction ["2 Para - Rifleman (Marksman)", "Loadouts\p_Marks.sqf"];
+this addAction ["2 Para - Rifleman (Medic)", "Loadouts\p_Med.sqf"];
+this addAction ["2 Para - Rifleman (Section Cmd)", "Loadouts\p_Sec.sqf"];
+this addAction ["2 Para - Rifleman (Signaller)", "Loadouts\p_Sig.sqf"];
+this addAction ["2 Para - Rifleman (Troop Cmd)", "Loadouts\p_Trp.sqf"];
+this addAction ["2 Para - Rifleman (Company Cmd)", "Loadouts\p_Coy.sqf"];
+this addAction ["2 Para - Rifleman (Company Cmd Unarmed)", "Loadouts\p_Coy2.sqf"];
+
+this addAction ["A Troop, HCR - (Basic)", "Loadouts\a_Basic.sqf"];
+this addAction ["A Troop, HCR - (Vehicle Cmd)", "Loadouts\a_Cmd.sqf"];
+
+this addAction ["Recruit", "Loadouts\rct.sqf"];

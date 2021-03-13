@@ -1,0 +1,55 @@
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+{player unassignItem _x;player removeItem _x} forEach assignedItems player;
+
+player forceAddUniform "UK3CB_BAF_U_CombatUniform_MTP_RM";
+player addItemToUniform "ACE_EarPlugs";
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
+player addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+player addItemToUniform "ACE_Flashlight_MX991";
+player addItemToUniform "US_Facepaint";
+player addItemToUniform "ItemcTabHCam";
+player addVest "UK3CB_BAF_V_Osprey_Rifleman_B";
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+player addItemToVest "Chemlight_blue";
+for "_i" from 1 to 2 do {player addItemToVest "UK3CB_BAF_9_17Rnd";};
+for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd";};
+for "_i" from 1 to 3 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd_T";};
+player addItemToVest "ACRE_PRC343";
+player addBackpack "UK3CB_BAF_B_Bergen_MTP_PointMan_L_A";
+player addItemToBackpack "UK3CB_BAF_H_Beret_RM_Bootneck_PRR";
+player addItemToBackpack "UK3CB_BAF_HMNVS";
+player addItemToBackpack "UK3CB_BAF_G_Tactical_Clear";
+player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "UK3CB_BAF_L128A1";
+player addItemToBackpack "G_CBRN_M50";
+for "_i" from 1 to 4 do {player addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd";};
+for "_i" from 1 to 2 do {player addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd_T";};
+for "_i" from 1 to 4 do {player addItemToBackpack "UK3CB_BAF_12G_Slugs";};
+for "_i" from 1 to 4 do {player addItemToBackpack "UK3CB_BAF_12G_Pellets";};
+player addItemToBackpack "UK3CB_BAF_762_100Rnd";
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_CableTie";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_Canteen";};
+player addHeadgear "UK3CB_BAF_H_Mk7_Scrim_ESS_C";
+
+player addWeapon "UK3CB_BAF_L129A1";
+player addPrimaryWeaponItem "UK3CB_BAF_LLM_Flashlight_Black";
+player addPrimaryWeaponItem "UK3CB_BAF_TA648_308";
+player addPrimaryWeaponItem "UK3CB_underbarrel_acc_fgrip_bipod";
+player addWeapon "UK3CB_BAF_L131A1";
+
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+
+[player,"UK3CB_BAF_Insignia_RMDagger_1"] call bis_fnc_setUnitInsignia;
