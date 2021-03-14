@@ -44,6 +44,11 @@ disableChannels[] = {
 	{5, true, true}, //--- Direct Chat
 	{6, true, true} //--- System Chat
 };
+//NCA Functions (Delete if NCA Func Ranges is not present in mission)
+class cfgFunctions
+{
+	#include "functions\nca_functions.hpp"
+};
 
 //Mission Music Defining
 
