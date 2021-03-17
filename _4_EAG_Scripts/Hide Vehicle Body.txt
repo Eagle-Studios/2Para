@@ -1,0 +1,5 @@
+_objectname setObjectTexture [0,""] //Body (RHS)
+
+_objectname setObjectTexture [1,""] //Turret (RHS)
+
+//Tracks cannot be hidden
