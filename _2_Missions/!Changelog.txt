@@ -1,0 +1,36 @@
+
+Mission File Changelog
+
+RAF KINTYRE - AIR
+
+Swapped 47 Sqn / JHC Assets; to their new positions.
+Moved Various Airbase Infrastructure; to allow C130's to navigate from new position.
+Moved JHC Assets to better, easier accessible helipads. 
+Re-Added Air Service Area. 
+Re-Added 9 Sqn (Although not in use yet; the previously placed role/ area {18 Sqn} is part of JHC)
+Added Parachute Box near C130 Hangars
+
+RAF KINTYRE - INFRASTRUCTURE
+Added missing ruined domes/ areas. (To add Immersion)
+Added More lighting to key areas. 
+Added Heavy Weapons, Fibua, NCA 300m.
+Adjusted Vehicles clipping into ground causing vehicle explosions. 
+Added more signs, for easier navigation. (Sign Loading, added near Main spawn areas)
+Added Section and Platoon Supply Crates. 
+Added Checkpoint to Heavy Range.
+Updated Signs to new Colour / Font scheme.
+Added Ramps to Vehicle Warehouses.
+Added further pathways to Battalion HQ.
+Readjusted previously moved objects to be properly situated to prevent clipping issues.
+Added Grasscutters, to needed areas.
+
+
+RAF KINTYRE - BUILDINGS
+Added Coy & 1 Platoon Barracks (With Interior). (Players now spawn at respective areas)
+Added and Moved Armoury. (Includes Unlimited Version of supply crates)
+Configured Loadouts. (Can be found in \_Training\Loadouts) (Added Extra crates at key areas to allow loadouts)
+Added "Chill Area" outside Battalion HQ as permenant area.
+
+Mission File Modules
+Updated ACRE Radio Channels, added Long Range Radio Frequencies sign to Armoury.
+Updated Server settings & Exported. (Can be found on \GitHub\2Para\_7_Docs.

@@ -1,29 +1,32 @@
 #Ammobox Script
-this addAction ["Pilot - JHC", "Loadouts\jhc_Pilot.sqf"];
-this addAction ["Pilot - RAF", "Loadouts\raf_Pilot.sqf"];
-this addAction ["Aircrewman - JHC", "Loadouts\jhc_Aircrew.sqf"];
-this addAction ["Base - JHC", "Loadouts\jhc_Base.sqf"];
-this addAction ["Base - JHC (Rolled)", "Loadouts\jhc2_Base.sqf"];
-this addAction ["Base - RAF", "Loadouts\raf_Base.sqf"];
-this addAction ["Base - RAF (Rolled)", "Loadouts\raf2_Base.sqf"]; 
 
-this addAction ["Base - 2 Para", "Loadouts\p1_Base.sqf"]; 
-this addAction ["Base - 2 Para (Rolled)", "Loadouts\p2_Base.sqf"]; 
-this addAction ["Base - A Troop, HCR", "Loadouts\a1_Base.sqf"];
-this addAction ["Base - A Troop, HCR (Rolled)", "Loadouts\a2_Base.sqf"];
+//Deployment
+this addAction ["Rifleman", "Loadouts\Sec\Rifle.sqf"];
+this addAction ["Pointman", "Loadouts\Sec\Point.sqf"];
+this addAction ["GPMG", "Loadouts\Sec\GPMG.sqf"];
+this addAction ["Sharpshooter", "Loadouts\Sec\Sharp.sqf"];
+this addAction ["Medic", "Loadouts\Sec\Medic.sqf"];
+this addAction ["Section IC", "Loadouts\Sec\IC.sqf"];
+this addAction ["Platoon Medic", "Loadouts\Plt\Medic.sqf"];
+this addAction ["Platoon Signaller", "Loadouts\Plt\Sig.sqf"];
+this addAction ["Platoon Sgt", "Loadouts\Plt\Sgt.sqf"];
+this addAction ["Platoon OC", "Loadouts\Plt\OC.sqf"];
 
-this addAction ["2 Para - Rifleman (Basic)", "Loadouts\p_Basic.sqf"];
-this addAction ["2 Para - Rifleman (AT)", "Loadouts\p_AT.sqf"];
-this addAction ["2 Para - Rifleman (Gunner)", "Loadouts\p_MG.sqf"];
-this addAction ["2 Para - Rifleman (Marksman)", "Loadouts\p_Marks.sqf"];
-this addAction ["2 Para - Rifleman (Medic)", "Loadouts\p_Med.sqf"];
-this addAction ["2 Para - Rifleman (Section Cmd)", "Loadouts\p_Sec.sqf"];
-this addAction ["2 Para - Rifleman (Signaller)", "Loadouts\p_Sig.sqf"];
-this addAction ["2 Para - Rifleman (Troop Cmd)", "Loadouts\p_Trp.sqf"];
-this addAction ["2 Para - Rifleman (Company Cmd)", "Loadouts\p_Coy.sqf"];
-this addAction ["2 Para - Rifleman (Company Cmd Unarmed)", "Loadouts\p_Coy2.sqf"];
+//Training
+this addAction ["Recruit", "Loadouts\Train\Rct.sqf"];
+this addAction ["Staff - Rifle", "Loadouts\Train\Rifle.sqf"];
+this addAction ["Staff - GPMG", "Loadouts\Train\GPMG.sqf"];
 
-this addAction ["A Troop, HCR - (Basic)", "Loadouts\a_Basic.sqf"];
-this addAction ["A Troop, HCR - (Vehicle Cmd)", "Loadouts\a_Cmd.sqf"];
+//Pilots
+this addAction ["Helicopter Pilot", "Loadouts\Air\Heli.sqf"];
+this addAction ["Plane Pilot", "Loadouts\Air\Jet.sqf"];
 
-this addAction ["Recruit", "Loadouts\rct.sqf"];
+//Base (No Kit)
+this addAction ["OnBase - Paratrooper", "Loadouts\Base\Rifle.sqf"];
+this addAction ["OnBase - Medic", "Loadouts\Base\Medic.sqf"];
+this addAction ["OnBase - Signaller", "Loadouts\Base\Sig.sqf"];
+this addAction ["OnBase - Section Command", "Loadouts\Base\IC.sqf"];
+this addAction ["OnBase - Platoon Command", "Loadouts\Base\OC.sqf"];
+this addAction ["OnBase - AAC Pilot", "Loadouts\Base\AAC.sqf"];
+this addAction ["OnBase - RAF Pilot", "Loadouts\Base\RAF.sqf"];
+this addAction ["OnBase - ISR", "Loadouts\Base\ISR.sqf"];

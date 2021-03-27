@@ -1,0 +1,51 @@
+comment "Remove existing items";
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+{player unassignItem _x;player removeItem _x} forEach assignedItems player;
+
+comment "Add weapons";
+player addWeapon "UK3CB_BAF_L131A1";
+player addHandgunItem "UK3CB_BAF_Flashlight_L131A1";
+player addHandgunItem "UK3CB_BAF_9_17Rnd";
+
+comment "Add containers";
+player forceAddUniform "UK3CB_BAF_U_HeliPilotCoveralls_RAF";
+player addVest "mpx_virtus4";
+player addBackpack "mpx_camel";
+
+comment "Add items to containers";
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+player addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_EarPlugs";};
+player addItemToUniform "ACE_Chemlight_Shield";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
+player addItemToUniform "ACE_Flashlight_XL50";
+player addItemToUniform "ACE_DAGR";
+player addItemToUniform "BW_Facepaint";
+player addItemToUniform "Chemlight_red";
+player addItemToVest "ACRE_PRC343";
+player addItemToVest "ACE_IR_Strobe_Item";
+player addItemToVest "UK3CB_BAF_9_17Rnd";
+player addItemToVest "SmokeShellPurple";
+player addItemToVest "SmokeShellGreen";
+player addItemToVest "SmokeShellBlue";
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+player addItemToBackpack "H_PilotHelmetHeli_B";
+for "_i" from 1 to 2 do {player addItemToBackpack "ACRE_PRC152";};
+player addItemToBackpack "ACE_MRE_BeefStew";
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_Canteen";};
+player addItemToBackpack "ACE_MRE_MeatballsPasta";
+player addHeadgear "UK3CB_BAF_H_PilotHelmetHeli_A";
+
+comment "Add items";
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+player linkItem "ItemGPS";
