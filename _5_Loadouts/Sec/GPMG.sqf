@@ -34,12 +34,12 @@ player addItemToUniform "Chemlight_red";
 player addItemToVest "ACRE_PRC343";
 player addItemToVest "SmokeShell";
 player addItemToVest "rhs_mag_m67";
-player addItemToVest "UK3CB_BAF_762_100Rnd_Blank";
+player addItemToVest "UK3CB_BAF_762_100Rnd_T";
 player addItemToBackpack "ACE_MRE_BeefStew";
 for "_i" from 1 to 2 do {player addItemToBackpack "ACE_Canteen";};
 player addItemToBackpack "UK3CB_BAF_H_Beret_PR";
 player addItemToBackpack "ACE_MRE_ChickenTikkaMasala";
-for "_i" from 1 to 3 do {player addItemToBackpack "UK3CB_BAF_762_100Rnd_Blank";};
+for "_i" from 1 to 3 do {player addItemToBackpack "UK3CB_BAF_762_100Rnd";};
 player addItemToBackpack "ACE_SpareBarrel";
 player addHeadgear "mpx_cobra_scrim";
 

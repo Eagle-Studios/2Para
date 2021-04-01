@@ -1,6 +1,17 @@
 
 Mission File Changelog
 
+30/03/2021
+Changed chairs, to hopefully not clip. 
+Moved Logi boxes to avoid collisions.
+Added Small Ammo box (with ammo boxes). 
+Added Full ACE Arsenal in Armoury, upstairs.
+
+
+
+
+
+
 RAF KINTYRE - AIR
 
 Swapped 47 Sqn / JHC Assets; to their new positions.
