@@ -11,9 +11,9 @@ removeGoggles player;
 {player unassignItem _x;player removeItem _x} forEach assignedItems player;
 
 //Add Kit 
-player forceAddUniform "AAC_UBACS";
+player forceAddUniform "";
 
-player addHeadgear "UK3CB_BAF_H_Beret_AAC";
+player addHeadgear "";
 
 //addItemToUniform
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_elasticBandage";};
